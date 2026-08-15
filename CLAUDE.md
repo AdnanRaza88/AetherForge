@@ -43,6 +43,8 @@ Code execution: local Docker sandbox (primary) + remote option.
 | Document | Purpose |
 |----------|---------|
 | `docs/ARCHITECTURE.md` | **Main architecture reference** (components, flows, stack) |
+| `docs/FEATURES-AND-SERVICES.md` | Complete inventory of features & internal services |
+| `docs/FOLDER-STRUCTURE.md` | Official monorepo folder + file layout (MCPs, plugins, skills…) |
 | `docs/planning/final/FINAL-PRD.md` | Locked product requirements |
 | `docs/planning/final/FINAL-SYSTEM-DESIGN.md` | Earlier high-level design |
 | `docs/planning/final/FINAL-CONSISTENCY-PROTOCOL.md` | How we prevent theme/style drift |
