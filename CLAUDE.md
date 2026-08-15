@@ -42,8 +42,9 @@ Code execution: local Docker sandbox (primary) + remote option.
 
 | Document | Purpose |
 |----------|---------|
+| `docs/ARCHITECTURE.md` | **Main architecture reference** (components, flows, stack) |
 | `docs/planning/final/FINAL-PRD.md` | Locked product requirements |
-| `docs/planning/final/FINAL-SYSTEM-DESIGN.md` | Architecture |
+| `docs/planning/final/FINAL-SYSTEM-DESIGN.md` | Earlier high-level design |
 | `docs/planning/final/FINAL-CONSISTENCY-PROTOCOL.md` | How we prevent theme/style drift |
 | `docs/planning/final/FINAL-LARGE-CODE-REVIEW-PROTOCOL.md` | How we review & fix large codebases safely |
 | `docs/planning/final/FINAL-AGENTS-AND-TEAMS.md` | Domain armies and agent roles |
@@ -73,9 +74,10 @@ Next: Phase 0 — core runtime + Main Orchestrator + one Domain Section proof-of
 ## Quick Start for Any Coding Agent
 
 1. Read this CLAUDE.md completely.
-2. Read FINAL-PRD.md and FINAL-SYSTEM-DESIGN.md.
-3. Read the two Protocol documents (Consistency + Large Code Review).
-4. Only then look at schemas, agent instructions, or source code.
-5. All new work must follow Spec-Driven process and Shared Context rules.
+2. Read `docs/ARCHITECTURE.md` (main structural reference).
+3. Read FINAL-PRD.md.
+4. Read the two Protocol documents (Consistency + Large Code Review).
+5. Only then look at agent instructions or source code.
+6. All new work must follow Spec-Driven process and Shared Context rules.
 
 **This file exists so you do not need to explore the entire repository to understand the project.**
